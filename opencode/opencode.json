@@ -1,0 +1,25 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "plugin": [
+    "@zenobius/opencode-skillful"
+  ],
+  "mcp": {
+    "grafana": {
+      "type": "local",
+      "command": [
+        "node",
+        "/Users/nineleaps/clang/grafana-mcp/dist/index.js"
+      ],
+      "enabled": false
+    },
+    "figma": {
+      "enabled": false,
+      "url": "https://mcp.figma.com/mcp",
+      "type": "remote",
+      "oauth": {
+        "clientId": "RnFH0GpVKCQ5eBJbs7kB9c",
+        "clientSecret": "EkxzGTnn69feuXLyRsTwvsIN7TSkBN"
+      }
+    }
+  }
+}
